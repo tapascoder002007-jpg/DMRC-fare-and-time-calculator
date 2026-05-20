@@ -1,0 +1,132 @@
+Line    Station                     NextStation                 TravelTime(min)    Interchange Point
+Blue,    DWARKA SECTOR - 21,          DWARKA SECTOR - 8,           3,                   No 
+Blue,    DWARKA SECTOR - 8,           DWARKA SECTOR - 9,           2,                   No 
+Blue,    DWARKA SECTOR - 9,           DWARKA SECTOR - 10,          2,                   No
+Blue,    DWARKA SECTOR - 10,          DWARKA SECTOR - 11,          2,                   No
+Blue,    DWARKA SECTOR - 11,          DWARKA SECTOR - 12,          2,                   No
+Blue,    DWARKA SECTOR - 12,          DWARKA SECTOR - 13,          2,                   No
+Blue,    DWARKA SECTOR - 13,          DWARKA SECTOR - 14,          2,                   No
+Blue,    DWARKA SECTOR - 14,          DWARKA,                      2,                   Yes 
+Blue,    DWARKA,                      DWARKA MOR,                  2,                   No
+Blue,    DWARKA MOR,                  NAWADA,                      2,                   No
+Blue,    NAWADA,                      UTTAM NAGAR WEST,            2,                   No
+Blue,    UTTAM NAGAR WEST,            UTTAM NAGAR EAST,            2,                   No
+Blue,    UTTAM NAGAR EAST,            JANAKPURI WEST,              2,                   Yes
+Blue,    JANAKPURI WEST,              JANAKPURI EAST,              2,                   No
+Blue,    JANAKPURI EAST,              TILAK NAGAR,                 2,                   No
+Blue,    TILAK NAGAR,                 SUBHASH NAGAR,               2,                   No 
+Blue,    SUBHASH NAGAR,               TAGORE GARDEN,               2,                   No
+Blue,    TAGORE GARDEN,               RAJOURI GARDEN,              2,                   No
+Blue,    RAJOURI GARDEN,              RAMESH NAGAR,                2,                   No
+Blue,    RAMESH NAGAR,                MOTI NAGAR,                  2,                   No
+Blue,    MOTI NAGAR,                  KIRTI NAGAR,                 2,                   No
+Blue,    KIRTI NAGAR,                 SHADIPUR,                    2,                   No
+Blue,    SHADIPUR,                    PATEL NAGAR,                 2,                   No
+Blue,    PATEL NAGAR,                 RAJENDRA PLACE,              2,                   No
+Blue,    RAJENDRA PLACE,              KAROL BAGH,                  2,                   No
+Blue,    KAROL BAGH,                  JHANDEWALAN,                 2,                   No
+Blue,    JHANDEWALAN,                 RAMAKRISHNA ASHRAM MARG,     2,                   No
+Blue,    RAMAKRISHNA ASHRAM MARG,     RAJIV CHOWK,                 2,                   No
+Blue,    RAJIV CHOWK,                 BARAKHAMBA ROAD,             2,                   No
+Blue,    BARAKHAMBA ROAD,             MANDI HOUSE,                 2,                   No
+Blue,    MANDI HOUSE,                 SUPREME COURT,               2,                   No
+Blue,    SUPREME COURT,               INDRAPRASTHA,                2,                   No
+Blue,    INDRAPRASTHA,                YAMUNA BANK,                 3,                   Yes
+Blue,    YAMUNA BANK,                 AKSHARDAM,                   3,                   Yes
+Blue,    AKSHARDAM,                   MAYUR VIHAR - 1,             3,                   No
+Blue,    MAYUR VIHAR - 1,             MAYUR VIHAR EXTENSION,       2,                   No
+Blue,    MAYUR VIHAR EXTENSION,       NEW ASHOK NAGAR,             2,                   No
+Blue,    NEW ASHOK NAGAR,             NOIDA SECTOR - 15,           2,                   No
+Blue,    NOIDA SECTOR - 15,           NOIDA SECTOR - 16,           2,                   No
+Blue,    NOIDA SECTOR - 16,           NOIDA SECTOR - 18,           2,                   No
+Blue,    NOIDA SECTOR - 18,           BOTANICAL GARDEN,            2,                   Yes
+Blue,    BOTANICAL GARDEN,            GOLF COURSE,                 3,                   No
+Blue,    GOLF COURSE,                 NOIDA CITY CENTRE,           2,                   No
+Blue,    NOIDA CITY CENTRE,           SECTOR - 34 NOIDA,           2,                   No
+Blue,    SECTOR - 34 NOIDA,           SECTOR - 52 NOIDA,           2,                   No
+Blue,    SECTOR - 52 NOIDA,           SECTOR - 61 NOIDA,           2,                   No
+Blue,    SECTOR - 61 NOIDA,           SECTOR - 59 NOIDA,           2,                   No
+Blue,    SECTOR - 59 NOIDA,           SECTOR - 62 NOIDA,           2,                   No
+Blue,    SECTOR - 62 NOIDA,           NOIDA ELECTRONIC CITY,       2,                   No
+
+
+
+Blue,    YAMUNA BANK,                 LAXMI NAGAR,                 3,                   Yes
+Blue,    LAXMI NAGAR,                 NIRMAN VIHAR,                3,                   No
+Blue,    NIRMAN VIHAR,                PREET VIHAR,                 2,                   No
+Blue,    PREET VIHAR,                 KARKARDUMA,                  2,                   No
+Blue,    KARKARDUMA,                  ANAND VIHAR ISBT,            2,                   No
+Blue,    ANAND VIHAR ISBT,            KAUSHAMBI,                   2,                   No
+Blue,    KAUSHAMBI,                   VAISHALI,                    2,                   No       
+
+
+
+Magenta, KRISHNA PARK EXTENSION,      JANAKPURI WEST,              12,                  Yes
+Magenta, JANAKPURI WEST,              DABRI MOR - JANAKPURI SOUTH, 5,                   No
+Magenta, DABRI MOR - JANAKPURI SOUTH, DASRATHPURI,                 5,                   No
+Magenta, DASRATHPURI,                 PALAM,                       2,                   No
+Magenta, PALAM,                       SADAR BAZAR CANTONMENT,      4,                   No
+Magenta, SADAR BAZAR CANTONMENT,      TERMINAL 1-IGI AIRPORT,      3,                   No
+Magenta, TERMINAL 1-IGI AIRPORT,      SHANKAR VIHAR,               3,                   No
+Magenta, SHANKAR VIHAR,               VASANT VIHAR,                3,                   No
+Magenta, VASANT VIHAR,                MUNIRKA,                     3,                   No
+Magenta, MUNIRKA,                     R.K.PURAM,                   2,                   No
+Magenta, R.K.PURAM,                   IIT,                         2,                   No
+Magenta, IIT,                         HAUZ KHAS,                   2,                   No
+Magenta, HAUZ KHAS,                   PANCHSHEEL PARK,             3,                   No
+Magenta, PANCHSHEEL PARK,             CHIRAG DELHI,                2,                   No
+Magenta, CHIRAG DELHI,                GREATER KAILASH,             2,                   No
+Magenta, GREATER KAILASH,             NEHRU ENCLAVE,               2,                   No
+Magenta, NEHRU ENCLAVE,               KALKAJI MANDIR,              2,                   No
+Magenta, KALKAJI MANDIR,              OKHLA NSIC,                  2,                   No
+Magenta, OKHLA NSIC,                  SUKHDEV VIHAR,               2,                   No
+Magenta, SUKHDEV VIHAR,               JAMIA MILLIA ISLAMIA,        2,                   No
+Magenta, JAMIA MILLIA ISLAMIA,        OKHLA VIHAR,                 2,                   No
+Magenta, OKHLA VIHAR,                 JASOLA VIHAR SHAHEEN BAGH,   5,                   No
+Magenta, JASOLA VIHAR SHAHEEN BAGH,   KALINDI KUNJ,                5,                   No
+Magenta, KALINDI KUNJ,                OKHLA BIRD SANCTUARY,        2,                   No
+Magenta, OKHLA BIRD SANCTUARY,        BOTANICAL GARDEN,            3,                   Yes
+
+
+Yellow,  SAMAYPUR BADLI,              ROHINI SECTOR - 18,          2,                   No
+Yellow,  ROHINI SECTOR - 18,          HAIDERPUR BADLI MOR,         3,                   No
+Yellow,  HAIDERPUR BADLI MOR,         JAHANGIRPURI,                2,                   No
+Yellow,  JAHANGIRPURI,                ADARSH NAGAR,                2,                   No
+Yellow,  ADARSH NAGAR,                AZADPUR,                     2,                   No
+Yellow,  AZADPUR,                     MODEL TOWN,                  2,                   No
+Yellow,  MODEL TOWN,                  GURU TEG BAHADUR NAGAR,      2,                   No
+Yellow,  GURU TEG BAHADUR NAGAR,      VISHWAVIDYALAYA,             2,                   No
+Yellow,  VISHWAVIDYALAYA,             VIDHAN SABHA,                2,                   No
+Yellow,  VIDHAN SABHA,                CIVIL LINES,                 2,                   No 
+Yellow,  CIVIL LINES,                 KASHMERE GATE,               2,                   No
+Yellow,  KASHMERE GATE,               CHANDNI CHOWK,               2,                   No
+Yellow,  CHANDNI CHOWK,               CHAWRI BAZAR,                2,                   No
+Yellow,  CHAWRI BAZAR,                NEW DELHI,                   2,                   No
+Yellow,  NEW DELHI,                   RAJIV CHOWK,                 2,                   Yes 
+Yellow,  RAJIV CHOWK,                 PATEL CHOWK,                 2,                   No
+Yellow,  PATEL CHOWK,                 CENTRAL SECRETARIAT,         2,                   No
+Yellow,  CENTRAL SECRETARIAT,         UDYOG BHAWAN,                2,                   No
+Yellow,  UDYOG BHAWAN,                LOK KALYAN MARG,             2,                   No
+Yellow,  LOK KALYAN MARG,             JOR BAGH,                    2,                   No
+Yellow,  JOR BAGH,                    DILLI HAAT,                  2,                   No
+Yellow,  DILLI HAAT,                  AIIMS,                       2,                   No
+Yellow,  AIIMS,                       GREEN PARK,                  2,                   No
+Yellow,  GREEN PARK,                  HAUZ KHAS,                   3,                   Yes
+Yellow,  HAUZ KHAS,                   MALVIYA NAGAR,               3,                   No
+Yellow,  MALVIYA NAGAR,               SAKET,                       2,                   No
+Yellow,  SAKET,                       QUTAB MINAR,                 3,                   No
+Yellow,  QUTAB MINAR,                 CHHATARPUR,                  3,                   No
+Yellow,  CHHATARPUR,                  SULTANPUR,                   3,                   No
+Yellow,  SULTANPUR,                   GHITORNI,                    2,                   No
+Yellow,  GHITORNI,                    ARJAN GARH,                  3,                   No
+Yellow,  ARJAN GARH,                  GURU DRONACHARYA,            3,                   No
+Yellow,  GURU DRONACHARYA,            SIKANDERPUR,                 2,                   No
+Yellow,  SIKANDERPUR,                 M.G. ROAD,                   2,                   No
+Yellow,  M.G. ROAD,                   IFFCO CHOWK,                 2,                   No
+Yellow,  IFFCO CHOWK,                 MILLENNIUM CITY CENTRE GURUGRAM,2,                No
+
+
+Grey,    DWARKA,                      NANGLI,                      2,                   Yes
+Grey,    NANGLI,                      NAJAFGARH,                   4,                   No
+Grey,    NAJAFGARH,                   DHANSA BUS STAND,            5,                   No
+
