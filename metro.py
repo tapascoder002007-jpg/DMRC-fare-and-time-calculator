@@ -110,4 +110,42 @@ def line(edges,a,b):
             return ln
 
     return None
-    
+def shortest(graph,start,end):
+    paths=[]
+    stack=[[start]]
+
+    while len(stack)>0:
+        currentp=stack.pop(0)
+        last=currentp[-1]
+        if last==end:
+            paths.append(currentp)
+        else:
+            if last in graph:
+                for info in graph[last]:
+                    nxt=info[0]
+                    if nxt not in currentp:
+                        new_p=[]
+                        for item in currentp:
+                            new_p.append(item)
+                        new_p.append(nxt)
+                        stack.append(new_p)
+
+    best_path=None
+    best_time=float("inf")
+
+    for p in paths:
+        total=0
+        for i in range(len(p)-1):
+            a=p[i]
+            b=p[i+1]
+            neighbours=graph[a]
+            for info in neighbours:
+                if info[0]==b:
+                    total+=info[1]
+                    break
+        
+        if total<best_time:
+            best_time=total
+            best_path=p
+
+    return best_path,best_time
