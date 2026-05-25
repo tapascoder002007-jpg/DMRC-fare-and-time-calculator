@@ -149,3 +149,98 @@ def shortest(graph,start,end):
             best_path=p
 
     return best_path,best_time
+def journeyplan():
+    edges=l_edges()
+    graph=buildfn(edges)
+    src=input("Source: ").upper()
+    dst=input("Destination: ").upper()
+
+    if src not in graph:
+        print("Incorrect source station.")
+        return
+    if dst not in graph:
+        print("Incorrect destination station.")
+        return
+
+    t_in = input("Time (HH:MM): ").split(":")
+    h=int(t_in[0])
+    m=int(t_in[1])
+
+    if not (0<=h<24 and 0<=m<60):
+        print("Incorrect time.Please use 24 hr format")
+        return
+    mins_now=(h*60)+m
+
+    if mins_now<(6*60) or mins_now>=(23*60):
+        print("No service available (metro runs 06:00-23:00)")
+        return
+
+    start_time=nextm(h,m)
+    path,travel_time =shortest(graph,src,dst)
+    print("\nJourney Plan:")
+    first_line=line(edges,path[0],path[1])
+
+    print("Start at",src,f"({first_line} Line)")
+    print("Next metro at",display(start_time))
+
+    cur_time=start_time
+    cur_line=first_line
+    extra=0
+
+    for i in range(len(path)- 1):
+        a=path[i]
+        b=path[i + 1]
+        ln=line(edges,a,b)
+
+        for item in edges:
+            s=item[0]
+            n=item[1]
+            t=item[2]
+
+        if (s==a and n==b)or(s==b and  n==a):
+            cur_time+=t
+            break
+
+        if ln!=cur_line:
+            print("Transfer to",ln,"Line")
+            cur_time+=2
+            extra+=2
+            hh=cur_time//60
+            mm=cur_time%60
+            next_t=nextm(hh,mm)
+
+            print("Next",ln,"metro departs at",display(next_t))
+            cur_time=next_t
+            cur_line=ln
+        print("Arrive at",b,"at",display(cur_time))
+
+    total_time = travel_time+extra
+    print("Total travel time:",total_time,"minutes")
+    if total_time<=10:
+        fare=10
+    elif total_time<=20:
+        fare=20
+    elif total_time<=40:
+        fare=30
+    elif total_time<=70:
+        fare=40
+    elif total_time<=100:
+        fare=50
+    else:
+        fare=60
+
+    print(f"Total fare:{fare}₹")
+
+print()
+print("Welcome to the metro interface")
+print("---------------------------------------------------")
+interface = (input("Type 1 for metro timings module, Type 2 for journey planner and q to quit: "))
+while interface!="q":
+    if interface=="1":
+        outputfn()
+    elif interface=="2":
+        journeyplan()
+    print("---------------------------------------------------")
+    interface =input("Type 1 for metro timings module, Type 2 for journey planner and q to quit: ")
+print()
+print("Thank you for choosing the Delhi Metro. Have a pleasant day.")
